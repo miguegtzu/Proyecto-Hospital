@@ -1,0 +1,105 @@
+body {
+  font-family: 'Alkatra', "cursive";
+  background-image: url(https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size:cover ;
+  background-attachment: fixed;
+  background-position: center center ; 
+  margin: 0;
+  padding: 20px;
+  }
+  
+  h1 {
+  color: #333;
+  text-align: center;
+  }
+  
+  h2 {
+  text-align: center;
+  color: #666;
+  margin-bottom: 10px;
+  }
+  p{
+    text-align: center
+  }
+  div{
+   text-align: center;
+  }
+  
+  table {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #070707;
+  }
+  
+  th {
+  text-align: center;
+  background-color: transparent;
+  }
+  
+  tr:nth-child(even) {
+  text-align: center;
+  background-color: transparent;
+  }
+  
+  input {
+  border: 0;
+  }
+  
+  img{
+  width: 15px;
+  }
+  
+  a, input[type="submit"] {
+  color: #faf9f9;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #0b07ff;
+  border: none;
+  font-size: medium;
+  border-radius: 4px;
+  }
+  
+  a:hover, input[type="submit"]:hover {
+  background-color: #0b07ff;
+  }
+  
+  .volver, .editar{
+  background-color: #4cacaf;
+  }
+  
+  .eliminar {
+  background-color: #ff0000;
+  }
+  
+  .volver,.editar:hover {
+  background-color: #429396;
+  }
+  
+  .eliminar:hover {
+  background-color: #9a0000;
+  }
+  
+  button {
+  margin-top: 10px;
+  }
+  
+  /* .opciones-tabla{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .opciones-tabla a{
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+  } */
